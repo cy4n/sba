@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Configuration;
 
+@SpringBootApplication
 @Configuration
 @EnableAutoConfiguration
 @EnableAdminServer
-@SpringBootApplication
 public class SbaApplication {
 
 	public static void main(String[] args) {
